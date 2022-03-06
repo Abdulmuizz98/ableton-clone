@@ -121,3 +121,45 @@ article{
   margin: 0 auto;
   margin-bottom: 8.33333vw;
 }
+.collage
+{
+  padding: 8.33333vw 0;
+  margin-bottom: 8.33333vw;
+  position: relative;
+}
+.collage .left-img{
+  background: url("https://ableton-production.imgix.net/about/photo-1.jpg?fit=crop&h=569&ixjsv=1.1.3&w=569");
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 41.66667vw;
+  height:41.66667vw;
+  margin-left: 8.33333vw;
+  vertical-align: middle;
+  z-index: 1;
+}
+.collage .right-img{
+  background:  url("https://ableton-production.imgix.net/about/photo-2.jpg?fit=crop&h=342&ixjsv=1.1.3&w=455");
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 8.33333vw;
+  display: inline-block;
+  width: 33.33333vw;
+  height: 25vw;
+  vertical-align: middle;
+  margin-left: 8.33333vw;
+  z-index: 1;
+}
+.collage .solid-bg{
+  position: absolute;
+  background-color: #FBFFA7;
+  /* display: inline-block; */
+  /* vertical-align: center; */
+  height: 58.33333vw;
+  width: 58.33333vw;
+  top: 0;
+  left: 41.66667vw;
+  z-index:-1;
+}
